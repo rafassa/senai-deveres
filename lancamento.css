@@ -1,0 +1,196 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+
+}
+
+
+body{
+	flex-direction: column;
+	display: flex;
+	min-width: 100vw;
+	max-width: 100vw;
+	min-height: 100vh;
+	max-height: 100vh;
+	flex: 1;
+	
+	
+}
+
+header{
+	border-bottom: 1px solid gray;
+	padding: 1%;
+
+}
+
+.menu{
+	display: flex;
+	align-items: center;
+
+
+}
+
+.nav{
+	
+	flex: 1;
+	
+}
+
+.Imagem{
+	width: 7em;
+	height: auto;
+	display: flex;
+	align-items: center;
+
+}
+
+.ul{
+	display: flex;
+	list-style: none;
+	justify-content: center
+}
+
+.li{
+	font-size: 1em;
+	margin-right: 10%;
+	transition: all 0.2s ease;
+	padding: 2px;
+	
+}
+
+.li:hover{
+	border: 1px solid black;
+	border-radius: 35%;
+	transform: scale(1.05);
+}
+
+.texto{
+	
+	text-decoration: none;
+}
+
+.texto:visited{
+color: none;
+}
+
+@media screen and (min-width: 2560px) {
+	.li{ font-size: 2em;}
+}
+
+
+
+main{
+flex: 1;
+display: flex;
+
+}
+
+.section{
+display: flex;
+flex-direction: column;
+min-width: 100%;
+min-height: 100%;
+gap: 5%;
+}
+
+.video{
+    width: 100vw;
+    height: 40vh;
+    
+}
+
+.divisaoImg{
+    display: flex;
+    justify-content: center;
+    
+	justify-content: space-evenly;
+	
+	
+}
+
+.textoAjuste{
+	display: flex;
+	flex-direction: row;
+	gap: 2%;
+	justify-content: center;	
+}
+
+.imagemModelos{
+    display: flex;
+    height: 14vh;
+    align-self: center;
+}
+
+.figure{
+display: flex;
+flex-direction: column;
+}
+
+.botaoC{
+	width: 10%;
+	height: 8%;
+	align-self: center;
+	text-align: center;
+	background-color: blue;
+	color: white;
+}
+
+@media screen and (max-width:1024px) {
+	.divisaoImg{
+		flex-direction: column;
+		padding-bottom: 4%;
+		gap: 5vh;
+	}
+
+	.botaoC{
+		width: 30%;
+		margin-bottom: 5%;
+	}
+}
+
+footer{
+	display: flex;
+	background-color: rgb(9, 33, 137);
+	width: 100vw;
+}
+
+.divTotal{
+display: flex;
+}
+
+.divF{
+	display: flex;
+	align-items: center;
+	gap: 00.1em;
+}
+
+
+.textoF{
+	padding: 1em;
+	font-size: 1em;
+	color: white;
+}
+
+.navImg{
+	min-width: 2rem;
+	max-width: 2em;
+	align-self: center;
+	padding: 2%;
+	transition: all 0.3s ease;
+}
+
+.navImg:hover{
+transform: scale(1.05);
+}
+
+.imagemFord{
+	right: 2%;
+	position:absolute ;
+	height: auto;
+	align-self: center;
+	min-width: 5rem;
+	max-width: 4rem;
+	
+}
+
