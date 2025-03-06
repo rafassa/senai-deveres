@@ -19,6 +19,8 @@ body{
 }
 
 header{
+	display: flex;
+	flex-wrap: wrap;
 	border-bottom: 1px solid gray;
 	padding: 1%;
 
@@ -27,8 +29,7 @@ header{
 .menu{
 	display: flex;
 	align-items: center;
-
-
+	width: 100%;
 }
 
 .nav{
@@ -38,12 +39,12 @@ header{
 }
 
 .Imagem{
-	width: 7em;
+	padding: 1%;
+	width: 14em;
 	height: auto;
-	display: flex;
 	align-items: center;
-
 }
+
 
 .ul{
 	display: flex;
@@ -93,6 +94,7 @@ align-items: center;
 	justify-content: center;
 	align-items: center;
 	height: 30%;
+	
 
 }
 
@@ -112,11 +114,18 @@ align-items: center;
 	
 }
 
+#textarea{
+	resize: none;
+	min-height: 7em;
+}
+
 .botao{
 	align-self: flex-end;
 	width: 20%;
 	height: 6%;
 }
+
+
 
 @media screen and (max-width:1024px) {
 	.form{
@@ -132,7 +141,9 @@ align-items: center;
 		height: AUTO;
 		width: 30%;
 	}
+	.Imagem{width: 25%;}
 }
+
 
 footer{
 	display: flex;

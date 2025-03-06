@@ -19,6 +19,8 @@ body{
 }
 
 header{
+	display: flex;
+	flex-wrap: wrap;
 	border-bottom: 1px solid gray;
 	padding: 1%;
 
@@ -27,8 +29,7 @@ header{
 .menu{
 	display: flex;
 	align-items: center;
-
-
+	width: 100%;
 }
 
 .nav{
@@ -38,11 +39,10 @@ header{
 }
 
 .Imagem{
-	width: 7em;
+	padding: 1%;
+	width: 14em;
 	height: auto;
-	display: flex;
 	align-items: center;
-
 }
 
 .ul{
@@ -83,29 +83,48 @@ color: none;
 main{
 flex: 1;
 display: flex;
-
+padding-top:1%;
 }
 
 .section{
 display: flex;
 flex-direction: column;
-min-width: 100%;
+min-width: 100vw;
 min-height: 100%;
-gap: 5%;
+
+}
+
+.div__video{
+display:flex;
+width: 100vw;
+gap: 1%;
+}
+
+.paragrafo__div{
+	padding-left: 1%;
+	align-self: center;
+	width: 80%;
+	text-align: justify;
+}
+
+@media screen and (max-width:1024px) {
+.div__video{
+	flex-direction: column-reverse;
+}
+.Imagem{width: 25%;}
 }
 
 .video{
-    width: 100vw;
-    height: 40vh;
-    
+    width: 100%;
+    height: 30vh;  
 }
 
 .divisaoImg{
     display: flex;
+	flex-wrap: wrap;
     justify-content: center;
-    
 	justify-content: space-evenly;
-	
+	padding-top: 5%;
 	
 }
 
@@ -129,11 +148,12 @@ flex-direction: column;
 
 .botaoC{
 	width: 10%;
-	height: 8%;
+	height: 5%;
 	align-self: center;
 	text-align: center;
 	background-color: blue;
 	color: white;
+	margin-top: 1%;
 }
 
 @media screen and (max-width:1024px) {

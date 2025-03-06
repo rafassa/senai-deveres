@@ -19,6 +19,8 @@ body{
 }
 
 header{
+	display: flex;
+	flex-wrap: wrap;
 	border-bottom: 1px solid gray;
 	padding: 1%;
 
@@ -27,8 +29,7 @@ header{
 .menu{
 	display: flex;
 	align-items: center;
-
-
+	width: 100%;
 }
 
 .nav{
@@ -38,9 +39,9 @@ header{
 }
 
 .Imagem{
-	width: 7em;
+	padding: 1%;
+	width: 14em;
 	height: auto;
-	display: flex;
 	align-items: center;
 
 }
@@ -66,7 +67,6 @@ header{
 }
 
 .texto{
-	
 	text-decoration: none;
 }
 
@@ -113,11 +113,12 @@ text-align: center;
 @media screen and (max-width: 1024px) {
 	#imagem_1{width: 90vw;}
 	.textoM{ font-size: 2vw;}
+		.Imagem{width: 25%;}
 }
 
 footer{
 	display: flex;
-	background-color: rgb(9, 33, 137);
+	background-color: rgb(12, 33, 125);
 
 	width: 100vw;
 }

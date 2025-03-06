@@ -30,11 +30,13 @@
             <input type="text" placeholder="digite o modelo do veiculo" >
             <input type="tel" placeholder="digite seu telefone" >
             <input list="opcao" id="select" placeholder = "Como deseja se comunicar">
-                <datalist id="opcao">
-                 <option value="Elogio">
-                 <option value="Reclamação">
-                 <option value="Solicitação">
-                </datalist>
+            <select id="opcao">
+                <option value="Elogio">Elogio</option>
+                <option value="Reclamação">Reclamação</option>
+                <option value="Solicitação">Solicitação</option>
+            </select>
+            <textarea name="area" id="textarea" placeholder="Escreva seu texto"></textarea>
+
                 <button class="botao">Enviar</button> 
         </label>
         
