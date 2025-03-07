@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
 *{
 	margin: 0%;
 	padding: 0%;
@@ -14,7 +17,7 @@ body{
 	min-height: 100vh;
 	max-height: 100vh;
 	flex: 1;
-	
+	font-family: 'Inter';
 	
 }
 
@@ -115,13 +118,12 @@ text-align: center;
 	#imagem_1{width: 90vw;}
 	.textoM{ font-size: 2vw;}
 		.Imagem{width: 25%;}
-		.texto{font-size: 0.9em;}
+		.texto{font-size: 0.8em;}
 }
 
 footer{
 	display: flex;
 	background-color: rgb(12, 33, 125);
-
 	width: 100vw;
 }
 
@@ -156,11 +158,11 @@ transform: scale(1.05);
 
 .imagemFord{
 	right: 2%;
-	position:absolute ;
+	position:fixed ;
 	height: auto;
 	align-self: center;
-	min-width: 5rem;
-	max-width: 4rem;
+	min-width: 4.5rem;
+	max-width: 4.5rem;
 	
 }
 

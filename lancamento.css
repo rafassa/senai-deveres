@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
 *{
 	margin: 0%;
 	padding: 0%;
@@ -14,7 +17,7 @@ body{
 	min-height: 100vh;
 	max-height: 100vh;
 	flex: 1;
-	
+	font-family: 'Inter';
 	
 }
 
@@ -112,7 +115,11 @@ gap: 1%;
 	flex-direction: column-reverse;
 }
 .Imagem{width: 25%;}
+.paragrafo__div{
+	padding-top: 3% ;
 }
+}
+
 
 .video{
 	aspect-ratio: 16 / 9;
@@ -145,6 +152,7 @@ gap: 1%;
 .figure{
 display: flex;
 flex-direction: column;
+
 }
 
 .botaoC{
@@ -171,8 +179,13 @@ flex-direction: column;
 	}
 
 	.texto{
-		font-size: 0.9em;
+		font-size: 0.8em;
 	}
+
+	.textoF{
+		font-size: 0.8rem;
+	}
+	
 }
 
 footer{
@@ -215,8 +228,9 @@ transform: scale(1.05);
 	position:absolute ;
 	height: auto;
 	align-self: center;
-	min-width: 5rem;
-	max-width: 4rem;
+	min-width: 4.5rem;
+	max-width: 4.5rem;
+	
 	
 }
 
