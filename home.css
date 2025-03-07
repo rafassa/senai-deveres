@@ -68,6 +68,7 @@ header{
 
 .texto{
 	text-decoration: none;
+	font-size: 1.2em;
 }
 
 .texto:visited{
@@ -114,6 +115,7 @@ text-align: center;
 	#imagem_1{width: 90vw;}
 	.textoM{ font-size: 2vw;}
 		.Imagem{width: 25%;}
+		.texto{font-size: 0.9em;}
 }
 
 footer{

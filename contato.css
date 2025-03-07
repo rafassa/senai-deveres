@@ -67,7 +67,7 @@ header{
 }
 
 .texto{
-	
+	font-size: 1.2em;
 	text-decoration: none;
 }
 
@@ -142,7 +142,10 @@ align-items: center;
 		width: 30%;
 	}
 	.Imagem{width: 25%;}
+
+	.texto{font-size: 0.9em;}
 }
+
 
 
 footer{
