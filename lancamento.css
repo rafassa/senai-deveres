@@ -98,6 +98,7 @@ flex-direction: column;
 min-width: 100vw;
 min-height: 100%;
 
+align-items: center;
 }
 
 .div__video{
@@ -193,6 +194,22 @@ flex-direction: column;
 	.textoF{
 		font-size: 0.8rem;
 	}
+	
+}
+
+.table{
+margin-left: auto;
+margin-right: auto;
+border: red solid ;
+th,td{border: red solid; text-align: center;}
+}
+
+.divTable{
+	
+	
+	width: 100%;
+	overflow-x: auto;
+	overflow-y: auto;
 	
 }
 

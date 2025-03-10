@@ -33,43 +33,53 @@ Em termos de motorização, a Ranger 2022 oferece opções potentes, como motore
                 <iframe class="video" frameborder="0" allow="autoplay; encrypet-media" allowfullscreen src="https://www.youtube.com/embed/vQsryuNmsL0" >
                 </iframe>
             </div>
-            <div class="divisaoImg">
-                <figure class="figure">
-                    <img  class="imagemModelos" src="CSS-HTML/img/storm.jpg" alt="Carro1">
-                    <label class="textoAjuste">
-                        <input  class="input" type="checkbox" name="cheackbox1" value="storm">
-                            Modelo tipo STORM
-                            <div>
-                                <img src="CSS-HTML/img/info.png" alt="informações STORM">
-                            </div>
-                    </label>
-                </figure>
-                <figure class="figure">
-                    <img  class="imagemModelos"src="CSS-HTML/img/XL Cabine.jpg" alt="Carro2">
-                    <label class="textoAjuste">
-                        <input class="input" type="checkbox" name="cheackbox2" value="XL">
-                       <p> Modelo tipo XL CD <br>preço de R$ 132 mil</p>
-                        
-                       <div>
-                            <img src="CSS-HTML/img/info.png" alt="informações cabine">
-                        </div>
-                    </label>
-                </figure>
-                <figure class="figure">
-                    <img  class="imagemModelos"src="CSS-HTML/img/xls 2.2 diesel.jpg" alt="Carro3">
-                    <label class="textoAjuste">
-                        <input class="input" type="checkbox" name="cheackbox3" value="xls">
-                        Modelo tipo XLS
-                        <div>
-                            <img src="CSS-HTML/img/info.png" alt="informações XlS">
-                        </div>
-                    </label>
-                </figure>
-            </div>
-            <button class="botaoC" type="button">Comparar</button>
+            <div class="divTable">
+           <table class="table">
+                <tr>
+                    <th>
+                    XL
+                    </th>
+               
+                    <th>
+                        XLS 
+                    </th> 
+                
+                    <th>
+                        STORM
+                    </th>
+                </tr>
+                <tr>   
+                </tr>
+                    <td>
+                        <img src="CSS-HTML/img/XL Cabine.jpg" alt="XL">
+                    </td>
+                    <td>
+                        <img src="CSS-HTML/img/xls 2.2 diesel.jpg" alt="XLS"> 
+                    </td>
+                    <td>
+                        <img src="CSS-HTML/img/storm.jpg" alt="">
+                    </td>
+                <tr>
+                    <form action="" id="form">
+                    <td> 
+                        <input type="checkbox" name="checkbox" class="chec">
+                        R$132.000
+                    </td>
+                    <td>
+                        <input type="checkbox" name="checkbox" class="chec">
 
-       
-       
+                        R$150.000
+                    </td>
+                    <td>
+                        <input type="checkbox" name="checkbox" class="chec">
+                        R$173.000
+                    </td>
+                </form>
+                </tr>
+           </table>
+        </div>
+           <button class="botaoC" type="submit" form="form">Comparar</button> 
+        </section>
     </main>
     <footer>
         <div class="divTotal">
