@@ -18,7 +18,7 @@ body{
 	max-height: 100vh;
 	flex: 1;
 	font-family: 'Inter';
-	
+
 }
 
 header{
@@ -26,41 +26,36 @@ header{
 	flex-wrap: wrap;
 	border-bottom: 1px solid gray;
 	padding: 1%;
-
+	
 }
 
 .menu{
 	display: flex;
 	align-items: center;
 	width: 100%;
+	
 }
 
 .nav{
-	
 	flex: 1;
-	
 }
 
 .Imagem{
-	padding: 1%;
-	width: 14em;
-	height: auto;
-	align-items: center;
-
+display: flex;
+width: 11rem;
 }
 
 .ul{
+	flex:1;
 	display: flex;
 	list-style: none;
-	justify-content: center
+	justify-content: center;
+	gap: 10%;
 }
 
 .li{
 	font-size: 1em;
-	margin-right: 10%;
 	transition: all 0.2s ease;
-	padding: 2px;
-	
 }
 
 .li:hover{
@@ -77,6 +72,12 @@ header{
 .texto:visited{
 color: none;
 }
+
+.divInvisivel{
+	width: 11rem;
+
+}
+
 
 @media screen and (min-width: 2560px) {
 	.li{ font-size: 2em;}
@@ -100,6 +101,7 @@ display: flex;
 
 .figure{
 	justify-content: center;
+	padding: 1%;
 }
 
 #imagem_1{
@@ -111,14 +113,20 @@ font-size: 1vw;
 text-align: center;
 }
 
+.textoMid{
+	text-align: justify;
+	padding: 1%;
+}
 
 
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
 	#imagem_1{width: 90vw;}
 	.textoM{ font-size: 2vw;}
 		.Imagem{width: 25%;}
 		.texto{font-size: 0.8em;}
+		.menu{flex-direction: column;}
+		.section{flex-direction: column-reverse;}
+		.textoMid{padding: 4%; font-size: 100%;}
 }
 
 footer{
@@ -129,12 +137,16 @@ footer{
 
 .divTotal{
 display: flex;
+width: 100%;
+justify-content: space-between;
+flex-wrap: wrap;
 }
 
 .divF{
 	display: flex;
 	align-items: center;
 	gap: 00.1em;
+	flex-wrap: wrap;
 }
 
 
@@ -156,13 +168,17 @@ display: flex;
 transform: scale(1.05);
 }
 
+
+.alinhamento__Imagem__Logo{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	padding-right: 2%;
+	
+}
 .imagemFord{
-	right: 2%;
-	position:fixed ;
-	height: auto;
-	align-self: center;
+	height: 2.3rem;
 	min-width: 4.5rem;
 	max-width: 4.5rem;
 	
 }
-
