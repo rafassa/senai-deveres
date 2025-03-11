@@ -53,6 +53,7 @@ width: 11rem;
 }
 
 .li{
+	border: 1px solid white;
 	font-size: 1em;
 	transition: all 0.2s ease;
 }
@@ -64,6 +65,7 @@ width: 11rem;
 }
 
 .texto{
+	padding: 1em;
 	text-decoration: none;
 	font-size: 1.2em;
 }

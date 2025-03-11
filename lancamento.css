@@ -26,7 +26,6 @@ header{
 	flex-wrap: wrap;
 	border-bottom: 1px solid gray;
 	padding: 1%;
-	
 }
 
 .menu{
@@ -37,6 +36,7 @@ header{
 }
 
 .nav{
+	
 	flex: 1;
 }
 
@@ -54,6 +54,7 @@ width: 11rem;
 }
 
 .li{
+	border: 1px solid white;
 	font-size: 1em;
 	transition: all 0.2s ease;
 }
@@ -65,6 +66,7 @@ width: 11rem;
 }
 
 .texto{
+	padding: 1em;
 	text-decoration: none;
 	font-size: 1.2em;
 }
@@ -81,6 +83,8 @@ color: none;
 
 @media screen and (min-width: 2560px) {
 	.li{ font-size: 2em;}
+	.paragrafo__div{font-size: 2em;}
+	.imagemL{min-width: 100%;}
 }
 
 
@@ -92,13 +96,19 @@ padding-top:1%;
 align-items: center;
 }
 
+.ajustePrincipal{
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100%;
+	
+}
+
 .section{
 display: flex;
 flex-direction: column;
 min-width: 100vw;
 min-height: 100%;
-
-align-items: center;
 }
 
 .div__video{
@@ -110,11 +120,11 @@ gap: 1%;
 .paragrafo__div{
 	padding-left: 1%;
 	align-self: center;
-	width: 80%;
+	width: 100%;
 	text-align: justify;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:900px) {
 .div__video{
 	flex-direction: column-reverse;
 }
@@ -130,7 +140,8 @@ gap: 1%;
 
 .video{
 	aspect-ratio: 16 / 9;
-    width:60%;
+    width:55%;
+	padding-right: 1%;
 }
 
 .divisaoImg{
@@ -167,7 +178,7 @@ flex-direction: column;
 	height: 5%;
 	align-self: center;
 	text-align: center;
-	background-color: blue;
+	background-color: #1b357e;
 	color: white;
 	margin-top: 1%;
 	margin-bottom: 1%;
@@ -175,7 +186,42 @@ flex-direction: column;
 	
 }
 
-@media screen and (max-width:600px) {
+.divisaoTable{
+display: flex;
+width: 100vw;
+justify-content: center;
+padding-top: 1%;	
+}
+
+
+table{
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+	tr{display: flex; justify-content: space-evenly;}
+}
+
+
+table td{
+	font-size: 100%;
+	text-align: center;
+}
+
+table tbody{
+	width: 100%;
+	
+}
+	.info{ 
+		width: 10%;
+		
+}
+
+.imagemL{
+	width: 55%;
+}
+
+
+@media screen and (max-width:900px) {
 	.divisaoImg{
 		flex-direction: column;
 		padding-bottom: 4%;
@@ -185,6 +231,7 @@ flex-direction: column;
 	.botaoC{
 		width: 30%;
 		margin-bottom: 5%;
+		margin-top: 5%;
 	}
 
 	.texto{
@@ -194,28 +241,41 @@ flex-direction: column;
 	.textoF{
 		font-size: 0.8rem;
 	}
+
 	
+		table td{
+			text-align: center;
+			align-items: center;
+		}
+		
+		table tr{
+			display: block;
+			
+		}
+	
+		table td{
+			display: block;
+		}
+
+		.imagemL{
+			width: 70%;
+		}
+	
+		
 }
 
-.table{
-margin-left: auto;
-margin-right: auto;
-border: red solid ;
-th,td{border: red solid; text-align: center;}
+
+table thead tr{
+	display: none;
 }
 
 .divTable{
-	
-	
 	width: 100%;
-	overflow-x: auto;
-	overflow-y: auto;
-	
 }
 
 footer{
 	display: flex;
-	background-color: rgb(12, 33, 125);
+	background-color: #1b357e;
 	width: 100vw;
 }
 

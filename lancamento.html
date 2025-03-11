@@ -21,66 +21,69 @@
             </div>
         </menu>
     </header>
+
     <main>
+        <div class="ajustePrincipal">
         <section class="section">
             <div class="div__video">
                 <p class="paragrafo__div">
                     A Ford Ranger 2022 é uma picape média que combina robustez, tecnologia avançada e desempenho de alto nível. Com um design moderno e imponente, a Ranger 2022 tem uma frente remodelada, destacando uma grade maior e faróis de LED, que conferem sofisticação e presença. As linhas do capô e da lateral são mais definidas, o que transmite uma sensação de força e elegância ao mesmo tempo. A picape é oferecida em diferentes configurações, adaptando-se tanto às necessidades de trabalho quanto ao uso pessoal.
-
-                
-Em termos de motorização, a Ranger 2022 oferece opções potentes, como motores diesel de 2.2 e 3.2 litros, que vão de 160 a 200 cv, com tração 4x4 em algumas versões. Isso permite à picape uma excelente performance, seja para enfrentar terrenos difíceis ou para carregar peso, mostrando-se capaz de se destacar tanto no campo quanto na cidade. No interior, a Ranger traz um ambiente confortável e espaçoso, com acabamento de alta qualidade. A cabine é bem dimensionada, oferecendo conforto para os ocupantes, e a central multimídia é        moderna, com compatibilidade com Apple CarPlay e Android Auto, além de uma tela sensível ao toque que facilita a operação de vários sistemas.
                 </p>
                 <iframe class="video" frameborder="0" allow="autoplay; encrypet-media" allowfullscreen src="https://www.youtube.com/embed/vQsryuNmsL0" >
                 </iframe>
             </div>
-            <div class="divTable">
-           <table class="table">
-                <tr>
-                    <th>
-                    XL
-                    </th>
-               
-                    <th>
-                        XLS 
-                    </th> 
-                
-                    <th>
-                        STORM
-                    </th>
-                </tr>
-                <tr>   
-                </tr>
-                    <td>
-                        <img src="CSS-HTML/img/XL Cabine.jpg" alt="XL">
-                    </td>
-                    <td>
-                        <img src="CSS-HTML/img/xls 2.2 diesel.jpg" alt="XLS"> 
-                    </td>
-                    <td>
-                        <img src="CSS-HTML/img/storm.jpg" alt="">
-                    </td>
-                <tr>
-                    <form action="" id="form">
-                    <td> 
-                        <input type="checkbox" name="checkbox" class="chec">
-                        R$132.000
-                    </td>
-                    <td>
-                        <input type="checkbox" name="checkbox" class="chec">
-
-                        R$150.000
-                    </td>
-                    <td>
-                        <input type="checkbox" name="checkbox" class="chec">
-                        R$173.000
-                    </td>
-                </form>
-                </tr>
-           </table>
-        </div>
-           <button class="botaoC" type="submit" form="form">Comparar</button> 
         </section>
+        <div class="divisaoTable">
+            <form id="form">
+           <table class="table">
+                <thead>
+                    <tr>
+                        <th>XL</th>
+                        <th>XLS</th>
+                        <th>STORM</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                    <td data-title="XL">
+                        <img  class="imagemL" src="CSS-HTML/img/XL Cabine.jpg" alt="XL"> 
+                        <br>
+                        <input type="checkbox">
+                        Modelo XL | R$ 132.000
+                        <img src="CSS-HTML/img/info.png" alt="">
+                        </input>
+                    </td>
+                    <td data-title="XLS">
+                        <img  class="imagemL" src="CSS-HTML/img/xls 2.2 diesel.jpg" alt="XLS">
+                        <br>
+                        <input type="checkbox">
+                        Modelo XLS | R$ 150.000
+                        <img src="CSS-HTML/img/info.png" alt="">
+                        </input>
+                    </td>
+                    <td data-title="STORM">
+                        <img  class="imagemL" src="CSS-HTML/img/storm.jpg" alt="STORM">
+                        <br>
+                        <input type="checkbox">
+                        Modelo STORM |  R$ 172.000
+                        <img src="CSS-HTML/img/info.png" alt="">
+                        </input>
+                    </td>
+                </tr>
+                
+                </tbody>
+
+                <tfoot>
+
+                </tfoot>
+           </table>
+        </form>
+        </div>
+        <button type="submit" form="form" class="botaoC">Comparar</button>
+    </div>
     </main>
+
     <footer>
         <div class="divTotal">
             <div class="divF">
